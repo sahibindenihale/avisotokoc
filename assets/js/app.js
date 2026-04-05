@@ -144,7 +144,7 @@ function applyContactInfo() {
   document.getElementById('contact-phone-link').href = telHref(CONFIG.phone);
   document.getElementById('contact-whatsapp-link').textContent = CONFIG.displayPhone;
   document.getElementById('contact-whatsapp-link').href = waHref(CONFIG.whatsappBaseMessage);
-  document.getElementById('floating-whatsapp-link').href = waHref(CONFIG.whatsappBaseMessage);
+  document.getElementById('floating-support-link').href = telHref(CONFIG.phone);
   document.getElementById('hero-image').src = CONFIG.heroImage;
 }
 
